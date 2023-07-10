@@ -1,0 +1,25 @@
+.boy-cool{
+  /* CSS rules for elements with class "my-class */
+  background-color: rgba(191, 213, 206, 0.176);
+  font-size: 24px;
+  font-style: inherit;
+}
+
+#cause{
+  /* CSS rules for the element with ID "my-id" */
+  background-color: rgba(221, 159, 148, 0.278);
+  font-size: 24px;
+  font-style: italic;
+}
+p{
+  /* CSS rules for all <p> elements  */
+  background-color: azure;
+  font-size: 24px;
+  font-style: oblique;
+}
+h1{
+  /* CSS rules for all <h1> elements */
+  background-color: rgba(127, 106, 75, 0.208);
+  font-size: 24px;
+  font-style: italic;
+}

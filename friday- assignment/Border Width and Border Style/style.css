@@ -1,0 +1,17 @@
+.boys{
+  background-color: aqua;
+  border: 3px solid red;
+  border-width: 3px;
+}
+.girls{
+  background-color: bisque;
+  border: dotted 3px tomato;
+  border-width: 2px;
+  margin-top: 13px;
+}
+.people{
+  background-color: blanchedalmond;
+  border: 2px dashed blue;
+  border-width: 2px;
+  margin-top: 13px;
+}
