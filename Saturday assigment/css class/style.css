@@ -1,0 +1,36 @@
+body{
+  margin: 200px;
+}
+.all{
+  position: fixed;
+}
+.love{
+  width: 150px;
+  height: 150px;
+  background: #3Dccc7;
+  background-color: blue;
+  transition-duration: 2000ms;
+  transition-property: all;
+  transition-timing-function: ease;
+  position: fixed;
+}
+.way{
+  width: 150px;
+  height: 150px; 
+  background:tomato ;
+  background-color: rgb(255, 0, 242);
+  transition-duration: 2000ms;
+  transition-property: inherit;
+  transition-timing-function: ease;
+  position: fixed;
+}
+.all .love:hover{
+  background: #ff6b6b;
+  transform:  rotate(45deg) scale(1.5) translate(50px, 50px);
+  cursor: pointer;
+}
+.all .way:hover{
+  background: brown;
+  transform:  rotate(-90deg) scale(0.8) translate(-50px, 50px);
+  cursor: pointer;
+}
