@@ -1,0 +1,57 @@
+/* Div of paragraph tags */
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.container p{
+  margin: 0px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+/* Image of a ball in the center of a div */
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+.picture img{
+  max-height: 100%;
+  max-width: 100%;
+}
+/* Horizontal form */
+.horizontal-form{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid #333;
+}
+.horizontal-form ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.horizontal-form li{
+  margin-left: 10px;
+}
+
+/* Arranging gruop of a tags */
+
+.vertical-form{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+}
+.vertical-form a{
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 10px;
+}
