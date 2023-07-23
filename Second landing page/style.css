@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'poppins', sans-serif;
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+nav .logo{
+  width: 80px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+nav ul li i{
+  color: #fff;
+  border-left: 2px solid #fff;
+  padding-left: 14px;
+}
+.content{
+  text-align: center;
+ 
+}
+.content h1{
+  text-transform: uppercase;
+  font-size: 48px;
+  word-spacing: 5px;
+  color: #fff;
+  padding: 12px;
+}
+/* .content h5 a{
+  margin-top: 120px;
+} */
+.content  h5{
+  color: #fff;
+  padding: 12px;
+}
+.content a{
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+}
+
+.content .work-1{
+  margin: 10px;
+  border: 2px solid #fff;
+  padding: 10px;
+  color: #fff;
+  transition: .5s;
+}
+.content .work-1:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+.content .work-1:active{
+  background-color: red;
+}
+.content .work-2{
+  margin: 10px;
+  border: 2px solid #fff;
+  padding: 10px;
+  color: #fff;
+  transition: .5s;
+}
+.content .work-2:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+.content .work-2:active{
+  background-color: red;
+}
+section{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+  url(./Images/dark-mountain-18.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+.content .radio{
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.outside{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-image: linear-gradient(white,rgba(190, 190, 168, 0.381));
+}
+.div{
+  padding: 50px;
+  color: #000;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.div i {
+  color: rgb(57, 234, 237);
+  margin: 0px -30px;
+}
+.div h3{
+  padding-top: 12px;
+}
+.car-1 h3{
+  padding: 25px;
+  margin-left: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  align-content: center;
+  display: inline;
+}
+.car-1 p{
+padding-top: 10px;
+}
+.car-2 h3{
+  padding: 25px;
+  margin-left: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  align-content: center;
+  display: inline;
+}
+.car-2 p{
+  padding-top: 10px;
+}
+.car-3 h3{
+  padding: 25px;
+  margin-left: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  align-content: center;
+  display: inline;
+}
+.car-3 p{
+  padding-top: 10px;
+}
+
