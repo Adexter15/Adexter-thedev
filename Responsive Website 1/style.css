@@ -1,0 +1,256 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.active{
+  color: #E8491D;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 5%;
+  background-color: #35424A;
+  color: #fff;
+  border-bottom: 3px solid #E8491D;
+  /* This is the same as saying 3px solid #E8491D  */
+  /* border-color: #E8491D; */
+}
+/* This is the same as using a class of active on the span tag */
+/* header h2 span{
+  color: #E8491D;
+} */
+nav{
+  display: flex;
+  gap: 10px;
+}
+/* This is the sam as using display flex and gap */
+/* nav a{
+  margin: 20px;
+}
+nav a:last-child{
+  margin-right: 0;
+} */
+.section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  min-height: 65vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url(https://blog.hubspot.com/hs-fs/hubfs/brand%20manifesto.jpg?width=595&height=400&name=brand%20manifesto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 70px;
+}
+.section-1 h1{
+  font-size: 40px;
+}
+.section-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 5%;
+  background-color: #35424A;
+  color: #fff;
+}
+.subscribe{
+  font-weight: bold;
+  font-size: 24px;
+}
+.section-2 form{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.section-2 input{
+  padding: 10px 0;
+  padding-left: 5px;
+  border: none;
+  width: 200px;
+}
+.section-2 button{
+  padding: 11px 19px;
+  border: none;
+  background-color: #E8491D;
+  color: #fff;
+  font-weight: 30px;
+}
+.section-3{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 50px 100px;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+footer{
+  text-align: center;
+  background-color: #E8491D;
+  padding: 20px 0;
+  color: #fff;
+}
+.name{
+  margin-top: 15px;
+}
+.group img{
+  width: 90px
+}
+/* STYLING FOR THE ABOUT PAGE */
+.section-4{
+  padding: 25px 5%;
+  background-color: #f4f4f4;
+}
+.section-4 h3{
+  margin-bottom: 15px;
+}
+#seperate{
+  display: flex;
+  gap: 30px;
+  align-items: start;
+}
+.second, aside{
+  background-color: #35424A;
+  color: #fff;
+  margin: 20px 0;
+  padding: 25px;
+}
+aside{
+  margin: 0;
+  background-color: #35424A;
+  color: #fff;
+  padding: 25px;
+  
+}
+.section-5{
+  padding: 15px 5%;
+}
+.section-5 h3{
+  padding-bottom: 10px;
+}
+.spread{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: start;
+}
+.start{
+  width: 60%;
+}
+.section-5 aside{
+  width: 30%;
+}
+.web{
+  background-color: #E6E6E6;
+  margin-bottom: 5px;
+  padding: 14px 7px;
+  line-height: 1.6em;
+}
+.input-div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+.input-div input, .input-div textarea{
+  width: 100%;
+  padding: 5px;
+}
+.aside-form button{
+  padding: 11px 19px;
+  border: none;
+  background-color: #E8491D;
+  color: #fff;
+  font-weight: 30px;
+  /* border-radius: 5px; */
+}
+@media(max-width: 900px){
+      header{
+        flex-direction: column;
+        gap: 20px;
+      }
+      .section-1{
+        padding: 30px;
+      }
+      .section-1 h1{
+        width: 70%;
+        font-size: 50px;
+      }
+      .section-1 p{
+        width: 70%;
+        font-size: 20px;
+      }
+      .section-2{
+        flex-direction: column;
+        gap: 20px;
+      }
+      .subscribe{
+        font-size: 20px;
+      }
+      .section-2 form{
+        flex-direction: column;
+        width: 80%;
+        gap: 10px;
+      }
+      .section-2 input, .section-2 button{
+        width: 100%;
+      }
+      .section-3{
+        flex-direction: column;
+        gap: 30px;
+      }
+      .group{
+        width: 80%;
+        margin: auto;
+      }
+      /* STYING FOR ABOUT PAGE */
+      .section-4{
+        text-align: center;
+      }
+      #seperate{
+        flex-direction: column;
+        gap: 20px;
+      }
+      .section-5{
+        text-align: center;
+      }
+      .spread{
+        flex-direction: column;
+        align-items: center;
+      }
+      .section-5 aside{
+        width: 100%;
+      }
+      .aside-form{
+        width: 100%;
+      }
+      .input-div{
+        align-items: center;
+      }
+      .input-div input, 
+      .input-div textarea,
+      .aside-form button{
+        width: 100%;
+      }
+      .start{
+        width: 100%;
+      }
+}
