@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Javascript Assignment</h1>
+  <!-- Create an array of animals. Convert the array to a single string with all animals separated by commas -->
+  <p id="house"></p>
+
+  <!-- Declare a string of words separated by hyphens. Convert it to an array of words -->
+  <p id="School"></p>
+
+  <!-- Declare a variable with the value as your first name. Create a message using concatenation that greets you -->
+  <p id="Town"></p>
+
+  <!-- Combine your favorite hobby with a sentence using string concatenation. -->
+  <p id="Earth"></p>
+
+  <!-- Declare a variable isWeekend as either true or false. If it's the weekend, log "Time to relax!" -->
+  <h1>Check if it's the weekend</h1>
+  <form id="weekendForm">
+      <label for="dayIndex">Enter a day index (0: Sunday, 1: Monday, ..., 6: Saturday):</label>
+      <input type="number" id="dayIndex" min="0" max="6" required>
+      <input type="submit" value="Check">
+  </form>
+  <p id="result"></p>
+
+  <!-- Check if a given number is even or odd. Log the result. -->
+  <h1>Check if a number is even or odd</h1>
+  <form id="evenOddNumbers">
+      <label for="numberInput">Enter a number:</label>
+      <input type="number" id="numberInput" required>
+      <input type="submit" value="Check">
+  </form>
+  <p id="output"></p>
+
+  <!-- Declare a variable called username and assign your name to it. Log a message using the username. -->
+  <h1>Log a message with your username</h1>
+    <!-- <p>Your username is: <span id="usernameDisplay"></span></p> -->
+    <form id="usernameForm">
+        <label for="nameInput">Enter your name:</label>
+        <input type="text" id="nameInput" required>
+        <input type="submit" value="Submit">
+    </form>
+    <p id="position"></p>
+
+  <!-- Declare two variables, length and width, to represent dimensions of a rectangle. Calculate and log its area. -->
+  <h1>Calculate the area of a rectangle</h1>
+  <form id="rectangleForm">
+      <label for="lengthInput">Enter the length:</label>
+      <input type="number" id="lengthInput" required>
+      <label for="widthInput">Enter the width:</label>
+      <input type="number" id="widthInput" required>
+      <input type="submit" value="Calculate Area">
+  </form>
+  <p id="ensure"></p>
+
+  <!-- Create an array of fruits. Use the .concat() method to add another array of vegetables to it. -->
+
+  <h1>Combine Fruits and Vegetables</h1>
+  <form id="fruitsForm">
+      <label for="fruitsInput">Enter fruits (comma-separated):</label>
+      <input type="text" id="fruitsInput" required>
+      <input type="submit" value="Combine">
+  </form>
+  <p id="develop"></p>
+
+   <!-- Declare an array of numbers. Use the .join() method to convert the array into a comma-separated string. -->
+   <h1>Convert an Array to a Comma-Separated String</h1>
+    <form id="numbersForm">
+        <label for="numbersInput">Enter numbers (comma-separated):</label>
+        <input type="text" id="numbersInput" required>
+        <input type="submit" value="Convert">
+    </form>
+    <p id="result"></p>
+
+<!-- Given an array of fruits, use the .splice() method to remove the second and third fruits from the array. -->
+    <title>Remove Fruits from Array</title>
+</head>
+<body>
+    <h1>Remove Fruits from Array</h1>
+    <form id="fruitsForms">
+        <label for="fruitsInputs">Enter fruits (comma-separated):</label>
+        <input type="text" id="fruitsInputs" required>
+        <input type="submit" value="Remove Fruits">
+    </form>
+    <p>Original Fruits Array: <span id="originalFruits"></span></p>
+    <p>Updated Fruits Array: <span id="updatedFruits"></span></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
