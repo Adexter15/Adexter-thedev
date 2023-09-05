@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commance website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f03a237c76.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- NEWLY BROUGHT HERE -->
+    <div class="header">
+      <p class="logo">LOGO</p>
+      <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+  </div>
+  <div class="containers">
+    <div id="root"></div>
+    <div class="sidebar">
+        <div class="head"><p>My Cart</p></div>
+        <div id="cartItem">Your cart is empty</div>
+        <div class="foot">
+            <h3>Total</h3>
+            <h2 id="total">$ 0.00</h2>
+        </div>
+    </div>
+</div>
+  <!-- NEWLY BROUGHT HERE -->
+    <div class="cool">
+      
+      <div id="search-container">
+        <input type="search" id="search-input" placeholder="search course name here...">
+        <button id="search" type="button">search</button>
+      </div>
+      <div id="button">
+        <button class="button-value" type="button" onclick="filterProduct('all')">all</button>
+        <button class="button-value" type="button"  onclick="filterProduct('Frontend')">Frontend</button>
+        <button class="button-value" type="button"  onclick="filterProduct('Backend')">Backend</button>
+        <button class="button-value" type="button"  onclick="filterProduct('programming')">Programming</button>
+        <button class="button-value" type="button"  onclick="filterProduct('computing')">computing</button>
+      </div>
+    </div>
+      <div id="products"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
